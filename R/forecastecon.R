@@ -103,4 +103,6 @@ forecastecon=function(Y,Hstep){
     fore4[H,]=F4
     fore5[H,]=F5
   }
+  result=list("AR"=fore1,"NN"=fore2,"GAM"=fore3,"SARIMA"=fore4,"ANN"=fore5)
 }
+
